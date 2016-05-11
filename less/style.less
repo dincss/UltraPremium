@@ -1,0 +1,43 @@
+﻿@import "menu";
+
+@green: #82b33f;
+@white: #ffffff;
+@grey: #464646;
+
+.b-r(@rad){
+	border-radius: @rad;
+	-moz-border-radius: @rad;
+	-webkit-border-radius: @rad;
+}
+
+footer {
+	background: @green;
+}
+footer h2, footer h3, footer a {
+	color: @white;
+}
+.button {
+	.b-r(5px);
+	background: @green;
+	padding: 10px 20px;
+	border-green: @green;
+	border: 1px solid @green;
+	color: @white;
+	text-decoration: none;
+	&-success-inverse {
+		background: @white;
+
+	}
+	&:hover {
+
+	}
+}
+.button_2 {
+	.b-r(5px);
+	padding: 10px 20px;
+	background: @white;
+	border-green: @green;
+	border: 1px solid @green;
+	color: @green;
+	text-decoration: none;
+}
