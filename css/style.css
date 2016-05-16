@@ -453,6 +453,9 @@ footer {
     margin-bottom: 50px;
     text-align: center; }
 
+  footer p {
+    text-align: center; }
+
   footer .listss ul {
     margin-left: 0;
     margin-right: 0;
@@ -475,6 +478,9 @@ footer {
 
   .rounded-rect .input-group {
     margin-top: 250px; }
+
+  footer p {
+    text-align: center; }
 
   footer .listss ul {
     margin-left: 0;
@@ -502,6 +508,9 @@ footer {
   .rounded-rect .input-group .btn {
     width: 70px;
     font-size: 12px; }
+
+  footer p {
+    text-align: center; }
 
   footer .listss ul {
     margin-left: 0;
