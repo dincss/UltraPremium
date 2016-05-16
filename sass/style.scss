@@ -546,6 +546,9 @@ footer {
 		margin-bottom: 50px;
 		text-align: center;
 	}
+	footer p {
+		text-align: center;
+	}
 	footer .listss ul {
 		margin-left: 0;
 		margin-right: 0;
@@ -559,7 +562,14 @@ footer {
 	footer .listss ul:first-child {
 		margin-right: 85;
 	}
+	
 }
+
+
+
+
+
+
 @media screen and (max-width: 991px) {
 	.rounded-rect p {
 		margin-top: 200px;
@@ -571,6 +581,9 @@ footer {
 	}
 	.rounded-rect .input-group {
 		margin-top: 250px;
+	}
+	footer p {
+		text-align: center;
 	}
 	footer .listss ul {
 		margin-left: 0;
@@ -586,6 +599,13 @@ footer {
 		margin-right: 55px;
 	}
 }
+
+
+
+
+
+
+
 @media screen and (max-width: 767px) {
 	.rounded-rect p {
 		margin-top: 200px;
@@ -600,6 +620,9 @@ footer {
 	.rounded-rect .input-group .btn {
 		width: 70px;
 		font-size: 12px;
+	}
+	footer p {
+		text-align: center;
 	}
 	footer .listss ul {
 		margin-left: 0;
